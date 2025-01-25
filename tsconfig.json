@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                          
+    "module": "CommonJS",                       
+    "outDir": "./dist",                        
+    "rootDir": "./src",                        
+    "strict": true,                            
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./src/types", "./node_modules/@types"]
+  },
+   "include": [
+    "src/**/*",
+    "src/types/**/*"  // Make sure this points to where the express.d.ts file is
+  ]
+}
+// {
+//   "compilerOptions": {
+//     "target": "ES6",
+//     "module": "commonjs",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "outDir": "./dist",
+//     "resolveJsonModule": true
+//   },
+//   "include": [
+//     "src/**/*",
+//     "src/types/**/*"  // Make sure this points to where the express.d.ts file is
+//   ]
+// }
